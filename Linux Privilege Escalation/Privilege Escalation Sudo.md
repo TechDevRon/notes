@@ -28,7 +28,7 @@ We can save this code as shell.c and compile it using gcc into a shared object f
 **unistd.h**
 
 If unisted.h isn't used when using setgid(0), setuid(0) you will get this error.
-![[Pasted image 20250218124022.png]]
+![[Pasted image 20250218202517.png]]
 To fix this just include the unistd.h header at the top of the file.
 
 The `unistd.h` header file in C and C++ provides access to the POSIX operating system API. It declares various functions, constants, and types that allow programs to interact with the underlying operating system. It is part of the Single UNIX Specification and should be available in any POSIX-compliant system.
